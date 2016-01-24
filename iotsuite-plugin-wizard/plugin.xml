@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.newWizards">
+      <category
+            name="IoTSuite"
+            id="NewIoTSuiteProjectWizard">
+      </category>
+      
+      <wizard
+            category="NewIoTSuiteProjectWizard"
+            class="com.example.eclipse.wizards.NewSpecificationProjectWizard"
+            icon="icons/sample.gif"
+            id="com.example.eclipse.wizards.NewDeploymentProjectWizard"
+            name="IoTSuite Project"
+            project="true">
+      </wizard>
+   </extension>
+
+</plugin>
